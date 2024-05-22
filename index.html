@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProgramON - Nauka Programowania</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            <span>ProgramON</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#offer">Oferta</a></li>
+                <li><a href="#">O nas</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="toggle-container">
+            <span>Light</span>
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider round"></span>
+            </label>
+            <span>Dark</span>
+        </div>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>ProgramON</h1>
+            <p>Programowanie dla szkół podstawowych</p>
+            <a href="#offer" class="view-offer">Zobacz ofertę</a>
+        </section>
+        <section id="offer" class="content">
+            <h2>Nasza Oferta</h2>
+            <div class="courses">
+                <div class="course">
+                    <img src="images/python.png" alt="Python" class="coursephoto">
+                    <h3>Python</h3>
+                    <p>Nauka podstaw programowania w języku Python.</p>
+                    <a href="python.html" class="offer-button">Zobacz ofertę</a>
+                </div>
+                <div class="course">
+                    <img src="images/JS.png" alt="JavaScript" class="coursephoto">
+                    <h3>JavaScript</h3>
+                    <p>Tworzenie interaktywnych stron internetowych.</p>
+                    <a href="javascript.html" class="offer-button">Zobacz ofertę</a>
+                </div>
+                <div class="course">
+                    <img src="images/htmlcss.png" alt="HTML & CSS" class="coursephoto">
+                    <h3>HTML & CSS</h3>
+                    <p>Podstawy tworzenia stron internetowych.</p>
+                    <a href="html_css.html" class="offer-button">Zobacz ofertę</a>
+                </div>
+                <div class="course">
+                    <img src="images/sql.png" alt="SQL" class="coursephoto">
+                    <h3>SQL</h3>
+                    <p>Podstawy baz danych i zapytań SQL.</p>
+                    <a href="sql.html" class="offer-button">Zobacz ofertę</a>
+                </div>
+            </div>
+        </section>
+        <section class="features">
+            <h2>Dlaczego warto wybrać nasz kurs?</h2>
+            <div class="feature-boxes">
+                <div class="feature-box">
+                    <img src="images/online-lessons.png" alt="Interaktywne lekcje online">
+                    <p>Interaktywne lekcje online</p>
+                </div>
+                <div class="feature-box">
+                    <img src="images/materials-24-7.png" alt="Materiały do nauki dostępne 24/7">
+                    <p>Materiały do nauki dostępne 24/7</p>
+                </div>
+                <div class="feature-box">
+                    <img src="images/mentors.png" alt="Wsparcie doświadczonych mentorów">
+                    <p>Wsparcie doświadczonych mentorów</p>
+                </div>
+                <div class="feature-box">
+                    <img src="images/certificate.png" alt="Certyfikat ukończenia kursu">
+                    <p>Certyfikat ukończenia kursu</p>
+                </div>
+                <div class="feature-box">
+                    <img src="images/community.png" alt="Dostęp do społeczności">
+                    <p>Dostęp do społeczności</p>
+                </div>
+            </div>
+        </section>
+        <section class="visualization">
+            <h2>Wizualizacja</h2>
+            <canvas id="canvas" width="800" height="400"></canvas>
+            <div class="gif-container">
+                <img src="images/pedroracoon.gif" alt="Pedro Raccoon">
+            </div>
+        </section>
+    </main>
+
+    <section id="newsletter" class="newsletter">
+        <div class="newsletter-container">
+            <h2>Zapisz się do naszego newslettera!</h2>
+            <p>Bądź na bieżąco z nowymi kursami i ofertami specjalnymi.</p>
+            <form id="newsletter-form">
+                <input type="email" id="email" name="email" placeholder="Wpisz swój email" required>
+                <button type="submit">Zapisz się</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; <span id="current-year">2024</span> ProgramON. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

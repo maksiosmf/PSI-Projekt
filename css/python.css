@@ -1,0 +1,78 @@
+@import url('style.css');
+
+.course-detail {
+    text-align: center;
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.course-detail h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.course-detail img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-detail p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.course-detail ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.course-detail ul li {
+    background: url('projekt psi/images/dot.png') no-repeat left center;
+    background-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.enroll-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6c5ce7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.enroll-button:hover {
+    background-color: #5a4bd1;
+    transform: translateY(-5px);
+}
+
+.dark-mode .course-detail {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .course-detail h1 {
+    color: #fff;
+}
+
+.dark-mode .course-detail p,
+.dark-mode .course-detail ul li {
+    color: #ddd;
+}
+
+.dark-mode .course-detail img {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
